@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --roboto: font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: var(--roboto);
+    margin: 0;
+}
+.wlc {
+    text-align: center;
+    padding: 3rem;
+}
+img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-left: 1rem;
+    vertical-align: text-top;
+}
+.pn {
+    display: block;
+    margin-left: 4rem;
+    margin-top: -2.5rem;
+
+}
+.pno {
+    font-weight: 600;
+}
+
+.tapt {
+    display: block;
+    padding: 1rem 1rem 0 1rem;
+    font-weight: 600;
+}
+
+.tdapp {
+    font-size: large;
+    width: 80%;
+    height: 61%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: #f5f1f1;
+    align-items: center;
+    border-radius: ;
+}
+.p1{
+    margin-top: 1rem;
+}
+
+
+.fa {
+    color: green;
+    margin-right: 5px;
+}
+.time {
+    float: right;
+    display: block;
+    margin-top: -2rem;
+}
+
+.ss {
+    margin-top: 1rem;
+    margin-bottom: ;
+    
+}
+.wel {
+    color: #4534da;
+}
+.jam {
+    color: #8e85e0 ;
+}
+.bb {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 16px;
+}
+.pp {
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 340px) {
+    .wlc {
+    text-align: center;
+    padding-bottom: 0rem;
+}
+}
